@@ -13,7 +13,7 @@ const HomePage = () => {
 
   return (
     <main>
-      <h1>Trending Today</h1>
+      <h1>Trending Today!</h1>
       {movies.length > 0 && <MovieList movies={movies} />}
     </main>
   );
